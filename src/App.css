@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+.cards-container {
+  display: flex;
+  flex-direction: row !important;
+  flex-wrap: nowrap; /* Ensure all cards stay in a single row */
+  justify-content: space-between; /* Adjust spacing between cards */
+  width: 100%; /* Ensure the container takes up the full width */
+}
+
+.button {
+  width: 200px; /* Set width of the button */
+  height: 50px; /* Set height of the button */
+  font-size: 18px; /* Increase font size */
+  background-color: #aab3b9; /* Add color to the button */
+  color: #000000; /* Set text color to white */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add rounded corners */
+  display: block; /* Make the button a block element */
+  margin: 0 auto; /* Center align the button */
+  text-align: center; /* Center align text within the button */
+  line-height: 50px; /* Center vertically */
+  cursor: pointer; /* Add pointer cursor on hover */
+}

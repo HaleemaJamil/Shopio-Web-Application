@@ -1,0 +1,17 @@
+/* MyComponent.css */
+.container {
+    text-align: center; /* Center align all content */
+  }
+  
+  .input {
+    width: 300px; /* Set width of the input field */
+    height: 40px; /* Set height of the input field */
+    font-size: 16px; /* Increase font size */
+  }
+
+  .display-text {
+    background-color: rgb(69, 193, 235); /* Set background color */
+    color: rgb(255, 255, 255); 
+    padding: 10px; /* Add padding for better visibility */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+  }

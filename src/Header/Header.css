@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #333; /* Change background color as needed */
+    color: #fff; /* Change text color as needed */
+  }
+  
+  .left, .right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .center {
+    flex-grow: 1; /* Center content expands to fill remaining space */
+    text-align: center;
+    font-size: 1.5rem; /* Adjust font size as needed */
+  }
+  
+  .right svg {
+    margin-left: 10px; /* Adjust margin between icons as needed */
+  }
+  
